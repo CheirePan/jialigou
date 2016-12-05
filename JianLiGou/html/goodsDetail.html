@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情页</title>
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/other.css" />
+	</head>
+	<body>
+		<!--头部登陆注册导航-->
+		<div id="top_Wrap">
+			<div class="top clear">				
+				<div class="tel left">
+					<img src="../img/images/ind-tel.png" />
+					<span>电话热线 <b>400-630-0077</b></span>
+				</div>
+				<div class="login left">
+					<div class="no_login">
+						<a href="login.html" id="login_text">[登陆]</a>
+						<a href="register.html" id="re">[免费注册]</a>
+					</div>					
+					<div class="had_login">
+						<a href="##" id="we"></a>
+						<a href="login.html" id="exist_text">[退出]</a>
+					</div>
+				</div>
+				<ul class="top_nav right">
+					<li><a href="##">我的嘉</a></li>
+					<li><a href="##">我的订单</a></li>
+					<li><a href="##">客户服务</a></li>
+					<li><a href="##">电视会员激活</a></li>
+					<li><img src="../img/images/ind-mobile.png" /></li>
+					<li class="padL"><a href="##">手机嘉丽购</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--logo-搜索-购物车-->
+		<div class="m_serach clear">
+			<h1 class="logo left">
+				<a href="##"><img src="../img/images/ladygood.png"/></a>
+			</h1>
+			<form class="fm left">
+				<input class="txt" id="txt" type="text" placeholder="输入商品名称或电视商品编号" />				
+				<input class="sub" type="submit" value="搜索" />
+				<ul id="list">
+					<li>
+						<a href=""></a>
+					</li>
+				</ul>
+			</form>
+			<div class="myCart right">
+				<a href="goodsCart.html">					
+					<span class="cartPic">
+						<i class="num">0</i>
+					</span>
+					<span class="mC">我的购物车</span>					
+				</a>
+			</div>
+		</div>
+		<!--导航栏-->		
+		<div id="m_contentTopWrap">
+			<div class="m_contentTop clear">
+				<!--<h3 class="m_tit">全部商品分类</h3>-->
+				<ul class="m_Nav left">
+					<li>
+						<a href="../index.html" id="index">首页</a>
+					</li>
+					<li>|</li>
+					<li>
+						<a href="##">TV直播</a>
+					</li>
+					<li>|</li>
+					<li>
+						<a href="##">嘉丽全球购</a>
+					</li>
+					<li>|</li>
+					<li>
+						<a href="##">水果生鲜</a>
+					</li>
+					<li>|</li>
+				</ul>
+				<b class="go left">订购热线<span>&nbsp;400-630-0077</span></b>
+				<h2 class="titH2">全部商品分类</h2>
+				<ul class="ul_list">
+					<li><a href="##">护肤、化妆、美容</a></li>
+					<li><a href="##">箱包、服饰、配饰</a></li>
+					<li><a href="##">珠宝、收藏品</a></li>
+					<li><a href="##">家居、厨房、日用</a></li>
+					<li><a href="##">电脑、数码、家电</a></li>
+					<li><a href="##">运动、健康、保健</a></li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+			<div class="con_nav">
+				<span class="ztit">
+					<a href="##"><strong>服装、箱包</strong></a>
+					<span class="jiaobiao"> > </span>
+					<a href="##">
+						<b>女装</b><span class="jiaobiao"> > </span>
+					</a>
+					<a href="##">
+						<b>裙子</b><span class="jiaobiao"> > </span>
+					</a>
+					<!--<span>迪菲怡时尚风范欧美印花连衣裙3+1组</span>-->
+				</span>
+			</div>
+			<div class="con clear" id="con">
+				<!--<div class="con_l left">
+					<div id="box">
+						<img id="mid_img" src="../img/other/55efd16392028.jpg" alt="mid" />
+						<div id="mark"></div>
+						<div id="opa"></div>
+					</div>
+					<div id="big">
+						<!--要满足：mark的宽/box的宽=big的宽/bigImg的宽  才能等比例放大-->
+						<!--<img id="bigimg" src="../img/other/55efd16392028.jpg" alt="big"/>
+					</div>
+					<div class="pic_small" id="small">
+						<span><img src="../img/other/55efd16392028.jpg" alt="small" /></span>
+						<span><img src="../img/other/s1_30396.jpg" alt="small" /></span>
+						<span><img src="../img/other/s1_30397.jpg" alt="small" /></span>
+						<span><img src="../img/other/s1_30398.jpg" alt="small" /></span>
+					</div>
+					<div class="share clear">
+						<span>分享到：</span>
+						<img src="../img/other/share.jpg" alt="" />
+					</div>
+				</div>
+				<div class="con_r right">
+					<ul class="goods_news clear">
+						<li class="gn_1 left">迪菲怡时尚风范欧美印花连衣裙3+1组</li>
+						<li class="gn_2 right">(供货号：20116636)</li>
+					</ul>
+					<div class="gd_d">
+						<div class="gd_d_1"><span class="w130">嘉丽价</span><span class="gs_price"><i>¥</i>199.00</span></div>
+						<div class="gd_d_2"><span class="w130">积分</span><span>订购此商品可返回<i>44*2</i>积分</span></div>
+					</div>
+					<div class="gd_d2 clear">
+						<span class="w130 left">尺寸</span>
+						<div class="gd_d2_div left">
+							<span>迪菲怡时尚风范高端欧美印花连衣裙</span>
+							<ul class="ulsize">
+								<li class="red">M码</li>
+								<li>L码</li>
+								<li>XL码</li>
+								<li>XXL码</li>
+							</ul>
+						</div>
+					</div>
+					<div class="gd_num">
+						<span>数量</span>
+						<i><button>-</button><input type="text" name="" id="" value="1" /><button>+</button> 件</i>
+					</div>
+					<div class="as">
+						<a href="##" class="buy">立即购买</a>
+						<a href="##" class="cart">加入购物车</a>
+						<a href="##" class="like">收藏</a>
+					</div>
+				</div>-->
+			</div>
+		</div>
+		<div class="dis">
+			<i>X</i>
+			<span>加入购物车成功</span>
+		</div>
+		
+		<div class="clear"></div>
+		<!-- footer底部-->
+		<div class="footer">
+			<div class="footer_top">
+				正品保证 正品行货 开具发票 快捷配送 严格包装 无损签收 货到付款 支付宝 银联在线支付
+			</div>
+
+			<div class="footer_help clear">
+				<div class="erweima left">
+					嘉丽购手机商城
+				</div>
+				<div class="help_list left">
+					<ul>
+						<li class="li_first">购物指南</li>
+						<li><a href="##">新用户注册/激活</a></li>
+						<li><a href="##">如何订购</a></li>
+						<li><a href="##">常见问题</a></li>
+					</ul>
+					<ul>
+						<li class="li_first">会员中心</li>
+						<li><a href="##">会员权益</a></li>
+						<li><a href="##">美丽积分</a></li>
+						<li><a href="##">订单查询</a></li>
+						<li><a href="##">找回密码</a></li>
+					</ul>
+					<ul>
+						<li class="li_first">配送服务</li>
+						<li><a href="##">物流跟踪</a></li>
+						<li><a href="##">免运费政策</a></li>
+					</ul>
+					<ul>
+						<li class="li_first">支付说明</li>
+						<li><a href="##">货到付款</a></li>
+						<li><a href="##">在线支付</a></li>
+					</ul>
+					<ul class="lastUl">
+						<li class="li_first">售后服务</li>
+						<li><a href="##">退换货政策</a></li>
+						<li><a href="##">退换货流程</a></li>
+						<li><a href="##">安全与保密</a></li>
+					</ul>
+				</div>
+				<div class="call right">
+					官方服务-百度安全认证-4006300077
+				</div>
+			</div>
+		</div>
+
+		<!--商城底部链接-->
+		<div class="bottom">
+			<p class="b_p1">
+				<a href="##">商城首页</a>|
+				<a href="##">官方首页</a>|
+				<a href="##">供应商登录</a>|
+				<a href="##">供货联系</a>|
+				<a href="##">收藏我们</a>|
+				<a href="##">公司简介</a>|
+				<a href="##">媒体报道</a>|
+				<a href="##">嘉丽购招聘</a>|
+				<a href="##">官方微博</a>|
+				<a href="##">合作网站：范游网</a>
+			</p>
+			<p class="b_p2">嘉丽购有限责任公司Copyright 2010-2014 jialigou.All Rights Reserved</p>
+			<p class="b_p3">国家广电总局批号：广局[2010]278号湘ICP备10203162号-3</p>
+			<a href="##" class="m_total" title="站长统计"><img src="../img/images/pic.gif"/></a>
+			<div class="footer_pic">
+				<a href="##"><img src="../img/images/kx.jpg" alt="认证联盟 可信网站"/></a>
+				<a href=""><img src="../img/images/360.jpg" alt="安全联盟认证"/></a>
+				<a href=""><img src="../img/images/alipay_s.gif" alt="支付宝特约商家" /></a>
+				<a href=""><img src="../img/images/hn110_s.gif" alt="网络110报警"/></a>
+			</div>
+		</div>
+		<script src="../js/jquery-3.1.1.js"></script>
+		<script src="../js/jquery.cookie.js"></script>
+		<script src="../js/head.js"></script>
+		<script src="../js/goodsDetail.js"></script>		
+	</body>
+</html>

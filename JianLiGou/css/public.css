@@ -1,0 +1,429 @@
+body,img,div,a,dl,dt,dd,i,b,ul,li,span,h1,h2,h3,h4,h5,h6,input{
+	margin: 0;
+	padding: 0;
+}
+html{
+	color: #444444;
+}
+i,em{
+	font-style: normal;
+}
+b,strong{
+	font-weight: normal;
+}
+ul,li,dl,dd,dt{
+	list-style: none;
+}
+img{
+	border: none;
+}
+body{
+	font-family: "宋体","microsoft yahei",arial,helvetica,sans-serif; 
+	font-size: 12px;
+	
+}
+
+/*body, textarea, input, button, select, keygen, legend {
+    font: 12px/1.14 arial,\5b8b\4f53;
+    color: #333;
+    outline: 0;
+}*/
+a{
+	text-decoration: none;
+	color:#444444;
+}
+
+
+.left{
+	float: left;
+}
+.right{
+	float:right;
+}
+.clear{
+	clear: both;
+}
+
+
+
+/*头部*/
+#top_Wrap{
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	border-bottom: 1px solid #e8e8e7;
+	background: #f7f7f7;
+}
+.top{
+	width: 1190px;
+	height: 36px;
+	line-height: 36px;
+	margin: 0 auto;
+	color:#444444;
+}
+.tel{
+	width: 240px;
+	height: 36px;
+	
+}
+.tel img{
+	margin: 10px 4px 0 0;
+	float: left;
+}
+.tel span{
+	width: 200px;
+	height: 36px;
+	line-height: 36px;	
+	float: left;
+}
+.tel b{
+	font-weight: 900;
+	color:#e91456;
+	font-size: 14px;
+	font-family: arial;
+}
+
+.top_nav{
+	height: 36px;	
+}
+.top_nav li{
+	float:left;
+	padding-left: 11px;
+}
+.top_nav li img{
+	padding-top: 9px;
+}
+.top_nav .padL{
+	padding-left: 4px;
+}
+.login .no_login{
+	display: block;
+}
+.login .had_login{
+	display: none;
+}
+
+.top a:hover{
+	text-decoration: underline;
+	color: red;
+}
+
+.m_serach{
+	height: 84px;
+	width: 1190px;
+	margin: 0 auto;
+}
+.logo{
+	width: 196px;
+	height: 84px;
+	margin: 10px 218px 0 0;
+}
+.fm{
+	width: 399px;
+	height: 32px;
+	border: 1px solid #e91456;
+	margin-top: 30px;
+	position: relative;
+}
+
+#txt{
+	width: 319px;
+	height: 32px;
+	border: none;
+	float: left;
+	text-indent: 4px;
+}
+#list {
+	position: absolute;
+	top:34px;
+	left: 0;
+	width: 316px;
+	border: 1px solid #999999;
+	display: none;
+}
+#list li {
+	width: 316px;
+	height: 30px;
+	font-size: 14px;
+	list-style: none;
+	position: relative;
+	z-index: 9999;
+	background: #FFFFFF;
+}
+#list li a {
+	display: block;
+	line-height: 30px;
+	color: #000;
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+#list li a:hover {
+	background: #666;
+	color: #fff;
+}
+.sub{
+	width: 80px;
+	height: 32px;
+	border: none;
+	float: left;
+	background: url("../img/images/search.png") no-repeat #e21357 13px 9px;
+	color: #fff;
+	font-weight: 900;
+	text-indent: 2em;
+	cursor: pointer;
+}
+
+.myCart{
+	width: 156px;
+	height: 28px;
+	border: 1px solid #e8e8e7;
+	margin-top: 30px;
+}
+.myCart a{
+	width: 156px;
+	height: 28px;
+	display: block;
+}
+
+.cartPic{
+	position: relative;
+	width: 16px;
+	height: 13px;
+	display: inline-block;	
+	background: url("../img/images/cart.png");
+	margin: 10px 0 0 10px;
+}
+.num{
+	display: inline-block;
+	height: 15px;
+	line-height: 15px;
+	width: 15px;
+	font-size: 10px;
+	position: absolute;
+	top: -5px;
+	right: -14px;
+	text-align: center;
+	background: url("../img/images/anniu.png");
+	color: #fff;
+}
+.mC{
+	display: inline-block;
+	float: right;
+	line-height: 28px;
+	margin-right: 46px;
+}
+
+#m_contentTopWrap{
+	width: 100%;
+	height: 34px;
+	border-bottom: 2px solid #e91455;
+}
+.m_contentTop{
+	width: 1190px;
+	height: 34px;
+	line-height: 34px;
+	margin: 10px auto;
+	position: relative;
+}
+
+.m_Nav{
+	margin-left: 236px;
+}
+.m_Nav li{
+	padding-right: 22px;
+	height: 34px;
+	font-size: 11px;
+	float: left;
+	color: #d5ccd5;
+	font-family: "微软雅黑";
+}
+
+.m_Nav li a{
+	color: #444444;
+	font-weight: 900;
+	font-size: 16px;
+}
+.m_Nav .first a{
+	color: #e91456;
+}
+.m_Nav li a:hover{
+	color: #e91456;
+}
+
+.go{
+	width: 140px;
+	height: 34px;
+	margin-left: 214px;	
+	font-size: 12px;
+	font-weight: bold;
+	color:#000;
+	
+}
+.go span{	
+	color: #e91456;
+	font-family: arial;
+}
+
+
+
+.m_tit{
+	position: absolute;
+	width: 190px;
+	height: 36px;
+	top:-36px;
+	background:#e91456 ;
+	color: #fff;
+	line-height: 36px;
+	font-size: 17px;
+	text-indent: 10px;
+	float: left;
+
+}
+
+
+.titH2{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 190px;
+	height: 34px;
+	background: #e91456;
+	color: #FFFFFF;
+	font-size: 17px;
+	text-indent: 15px;
+	font-family: "微软雅黑";
+}
+
+
+
+
+/*底部footer*/
+
+.footer{
+	width: 100%;
+	height: 235px;
+	border-top: 2px solid #e91455;
+	padding-top:8px ;
+	margin-top: 20px;
+	font-family: "微软雅黑";
+}
+
+
+.footer_top{
+	width: 1200px;
+	height: 46px;
+	margin: 0 auto 10px;
+	background: url("../img/images/foot_info.jpg") no-repeat scroll 0 0;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+.footer_help{
+	width: 1190px;
+	height: 170px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.footer_help a:hover{
+	color: #e91455;
+	text-decoration: underline;
+}
+.erweima{
+	width: 123px;
+	height: 123px;
+	background: url("../img/images/jlg_2d.jpg") no-repeat scroll 0 0;
+	text-indent: -9999px;
+	overflow: hidden;margin-right: 20px;
+	margin-top: 13px;
+}
+.help_list{
+	margin-left: 30px;
+	border: 1px solid #ccc;
+	border-bottom: none;
+	border-top: none;
+	padding-left: 39px;
+}
+
+.help_list ul{
+	float:left;
+}
+
+.help_list ul li{
+	width:140px;
+	height:30px;
+	line-height: 30px;
+}
+.help_list ul li a{
+	display: block;
+}
+.help_list .lastUl li{
+	width: 120px;
+	height: 30px;
+}
+.help_list ul .li_first{
+	font-weight: 900;
+	font-size: 14px;
+	color: #000;
+}
+.call{
+	width: 260px;
+	height: 65px;
+	margin-top: 35px;
+	background: url("../img/images/call_rz.jpg") no-repeat scroll 0 0;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+.m_total{
+	display: block;
+	width: 50px;
+	height: 12px;
+	margin: 5px auto;
+}
+.m_total img{
+	display: block;
+}
+
+.footer_pic{
+	width: 588px;
+	height: 42px;
+	margin: 10px auto;
+}
+.footer_pic a{
+	float:left;
+	display: block;
+	margin:0 10px 10px;
+}
+.footer_pic a img{
+	display: block;
+}
+/*底部*/
+.bottom{
+	height: 150px;
+	width: 100%;
+	background: #f8f8f8;
+	font-family: "微软雅黑";
+}
+
+.b_p1{
+	width: 645px;
+	margin: 0 auto;
+	line-height: 35px;
+	text-align: center;
+	color: #999;
+}
+.b_p2,.b_p3{
+	line-height: 18px;
+	margin: 0 auto;
+	color: #999999;
+}
+.b_p2 {
+	width: 405px;
+}
+.b_p3{
+	width: 329px;
+}
+.bottom a:hover{
+	color: #e91455;
+	text-decoration: underline;
+}
